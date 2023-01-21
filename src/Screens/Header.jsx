@@ -5,7 +5,7 @@ const Header = () => {
     const [x, setX] = useState(false)
 
     // Set Initial State Of Menu
-    let showMenu = false;
+    // let showMenu = false;
 
 
     const changeMenu = () => {
@@ -26,11 +26,10 @@ const Header = () => {
             <div className="container">
 
                 <div className="sidebar">
-                    {/* <!--================Navbar====================--> */}
+
 
                     <nav id="mySidebar" className={x ? `menu show` : `menu close`}>
-                        {/* <div className={x ? `menu-branding show` : `menu-branding close`}>
-                        </div> */}
+
                         <ul className={x ? `menu-nav show` : `menu-nav close`} id="actions">
                             <li className={x ? `nav-item show` : `nav-item close`}>
                                 <a href="#home" className='nav-link'>Home</a></li>
