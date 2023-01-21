@@ -1,0 +1,412 @@
+.myWork {
+    margin-top: 18%;
+
+}
+
+.text-center2 {
+    font-size: 60px;
+    color: white;
+}
+
+.hr-2 {
+    width: 430px;
+    margin-left: 40%;
+    margin-bottom: 8%;
+}
+
+.project-box {
+    margin-top: -1px;
+    background-color: transparent;
+    width: 1920px;
+    height: 100%;
+    background-color: hsl(222, 54%, 11%);
+    /* box-shadow: 0 0 5px hsl(222, 88%, 55%); */
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 30px;
+    display: inline-block;
+
+    padding: 30px 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.projects {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 12%;
+    margin-left: 5%;
+}
+
+.projects img {
+    border-radius: 100px;
+    margin-right: -50%;
+    display: block;
+    transition: transform 0.5s;
+    box-shadow: 0 0 10px hsl(222, 88%, 55%);
+}
+
+.layer {
+    width: 1900px;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--primaryColor));
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+
+.layer h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+
+.layer i {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    background: var(--yellowColor);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.projects:hover img {
+    transform: scale(1.1);
+}
+
+.projects:hover .layer {
+    height: 100%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+    .myWork {
+        margin-top: 18%;
+
+    }
+
+    .text-center2 {
+        font-size: 50px;
+        margin-top: -13%;
+        margin-bottom: 6%;
+        color: white;
+    }
+
+    .hr-2 {
+        width: 330px;
+        margin-left: 1%;
+        margin-bottom: 8%;
+    }
+
+    .project-box {
+        margin-top: -1px;
+
+        width: 300px;
+        height: 100%;
+        /* background-color: hsl(222, 54%, 11%); */
+        /* box-shadow: 0 0 5px hsl(222, 88%, 55%); */
+        margin-left: 10%;
+        margin-right: 1%;
+        border-radius: 30px;
+        display: inline-block;
+
+        padding: 30px 40px;
+        background-color: transparent;
+        margin-left: -10%;
+        justify-content: space-between;
+        /* width: 100%; */
+
+    }
+
+    .projects {
+        background-color: brown;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 12%;
+        margin-left: -10%;
+        width: 300px;
+        height: 50vh;
+        box-shadow: 0 0 5px hsl(222, 88%, 55%);
+
+    }
+
+    .projects img {
+        border-radius: 8px;
+        /* margin-right: -50%; */
+        padding-right: 1200px;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        display: block;
+        transition: transform 0.5s;
+
+    }
+
+    /* .img-proshop {
+        width: 100%;
+    } */
+
+    .layer {
+        width: 300px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), var(--primaryColor));
+        position: absolute;
+        border-radius: 8px;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 40px;
+        transition: height 0.5s;
+    }
+
+    .layer h1 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+
+
+    .layer i {
+        color: white;
+        margin-top: 20px;
+        font-size: 5px;
+        background: var(--yellowColor);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .projects:hover img {
+        transform: scale(1.1);
+    }
+
+    .projects:hover .layer {
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 414px) and (max-width: 896px) {
+
+    .myWork {
+        margin-top: 18%;
+
+    }
+
+    .text-center2 {
+        font-size: 50px;
+        margin-top: -13%;
+        margin-bottom: 6%;
+        color: white;
+    }
+
+    .hr-2 {
+        width: 330px;
+        margin-left: 5%;
+        margin-bottom: 8%;
+    }
+
+    .project-box {
+        margin-top: -1px;
+        background-color: transparent;
+        width: 650px;
+        height: 100%;
+        background-color: hsl(222, 54%, 11%);
+        /* box-shadow: 0 0 5px hsl(222, 88%, 55%); */
+        margin-left: 10%;
+        margin-right: 1%;
+        border-radius: 30px;
+        display: inline-block;
+
+        padding: 30px 40px;
+        background-color: transparent;
+        justify-content: space-between;
+        /* width: 100%; */
+
+    }
+
+    .projects {
+        position: relative;
+        overflow: hidden;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 12%;
+        margin-left: -10%;
+        width: 350px;
+        height: 50vh;
+        box-shadow: 0 0 5px hsl(222, 88%, 55%);
+
+    }
+
+    .projects img {
+        border-radius: 8px;
+        /* margin-right: -50%; */
+        padding-right: 1200px;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        display: block;
+        transition: transform 0.5s;
+
+    }
+
+    /* .img-proshop {
+        width: 100%;
+    } */
+
+    .layer {
+        width: 350px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), var(--primaryColor));
+        position: absolute;
+        border-radius: 8px;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 40px;
+        transition: height 0.5s;
+    }
+
+    .layer h1 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+
+
+    .layer i {
+        color: white;
+        margin-top: 20px;
+        font-size: 5px;
+        background: var(--yellowColor);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .projects:hover img {
+        transform: scale(1.1);
+    }
+
+    .projects:hover .layer {
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+    .projects {
+        position: relative;
+        overflow: hidden;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 12%;
+        margin-left: -11%;
+        width: 350px;
+        height: 50vh;
+        box-shadow: 0 0 5px hsl(222, 88%, 55%);
+
+    }
+
+    .layer {
+        width: 400px;
+
+
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 915px) {
+    .projects {
+        position: relative;
+        overflow: hidden;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 12%;
+        margin-left: -11%;
+        width: 350px;
+        height: 50vh;
+        box-shadow: 0 0 5px hsl(222, 88%, 55%);
+
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .myWork {
+        margin-top: 20%;
+
+    }
+
+    .text-center2 {
+        font-size: 50px;
+        margin-top: -2%;
+        margin-bottom: 6%;
+        color: white;
+    }
+
+    .hr-2 {
+        width: 330px;
+        margin-left: 25%;
+        margin-bottom: 8%;
+    }
+
+    .projects {
+        position: relative;
+        overflow: hidden;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 12%;
+        margin-left: -11%;
+        width: 600px;
+        height: 50vh;
+        box-shadow: 0 0 5px hsl(222, 88%, 55%);
+
+    }
+
+    .projects img {
+        margin-right: -70%;
+        padding-right: 500px;
+    }
+
+    .layer {
+        width: 700px;
+    }
+}

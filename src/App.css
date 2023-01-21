@@ -2,37 +2,49 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primaryColor: hsl(243, 23%, 18%);
+  --yellowColor: hsl(50, 100%, 64%);
+  --goldenColor: hsl(50, 100%, 54%);
+  --independence: hsl(225, 24%, 27%);
+  --orange-soda: hsl(7, 96%, 61%);
+  --fiery-rose: hsl(353, 83%, 65%);
+  --klein-blue: hsl(230, 80%, 39%);
+  --bluetiful: hsl(222, 88%, 55%);
+  --glaucous: hsl(230, 52%, 63%);
+  --manatee: hsl(254, 7%, 65%);
+  --rufous: hsl(2, 85%, 35%);
+  /* --primaryColor: hsl(0, 0%, 0%); */
+  --white: #fff;
+  --secondaryColor: #FF7F50;
+  --textColor: #343232;
+  /* --secondaryColor: #191970; */
+  --primaryFont: "Poppins", sans-serif;
+  --headerFont: 'Times New Roman', Times, serif;
+  --smallHeadingFont: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  --secondaryFont: 'Raleway', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  transition: all 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: var(--primaryColor);
+  /* color: #191970; */
+  line-height: 2;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-family: var(--headerFont);
+  color: var(--yellowColor);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  width: 210px;
+  margin: 1rem;
+  border: 3px solid #eece1a;
+  margin-left: 44%;
 }
