@@ -1,21 +1,25 @@
 .about {
     margin-top: 3%;
-    height: 100vh;
+    height: 150vh;
     /* background-color: hsl(222, 54%, 11%); */
-    box-shadow: 0 0 5px hsl(222, 88%, 55%);
+    box-shadow: 0 0 5px var(--grayColor);
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 30px;
 
+
 }
 
 .text-center {
+    margin-top: 10%;
     text-align: center;
-    font-weight: 100;
-    font-size: 30px;
+    font-weight: 800;
+    font-size: 50px;
     margin-left: -10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--orange-soda)
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--secondaryColor);
+    padding-top: 5%;
+    padding-bottom: 1%;
 }
 
 .rounded-box {
@@ -25,12 +29,13 @@
     flex-direction: row;
     padding: 30px 45px;
     justify-content: space-between;
+    margin-top: 9%;
 
 
 }
 
 .rounded-card {
-    background-color: var(--yellowColor);
+    /* background-color: var(--manatee); */
     width: 300px;
     height: 100px;
     border-radius: 50px;
@@ -41,7 +46,7 @@
 }
 
 .s-icons .bx {
-    color: white;
+    color: var(--secondaryColor);
     font-size: 50px;
     transition: all 0.5s ease-out;
     transition: all 0.45s ease;
@@ -49,20 +54,20 @@
 }
 
 .s-icons i:hover {
-    color: var(--primaryColor);
+    color: #ccccef;
     transition: all 0.5s ease-out;
 }
 
 .title {
-    margin-top: 20%;
+    margin-top: 30%;
 }
 
 .sub-title {
-    width: 250px;
-    font-size: 20px;
-    font-weight: 800;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: var(--goldenColor);
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffed64;
+    margin-bottom: 10%;
 }
 
 .paragraph {
@@ -70,7 +75,7 @@
     justify-content: center;
     align-items: center;
     width: 400px;
-    margin-left: -50%;
+    margin-left: -40%;
     padding-left: 10%;
     padding-right: 5%;
     font-size: 20px;
@@ -92,7 +97,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 40%;
-    margin-top: 15%;
+    margin-top: 20%;
     padding: 20px 35px;
     position: absolute;
 }
@@ -523,11 +528,100 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
+    .about {
+        margin-top: 3%;
+        height: 360vh;
+        /* background-color: hsl(222, 54%, 11%); */
+        box-shadow: 0 0 5px #d9d9d9;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 30px;
+
+    }
+
+    .text-center {
+        margin-top: 45%;
+        padding-top: 10%;
+        padding-bottom: 8%;
+
+
+    }
+
+
+
+    hr {
+        margin-left: 15%;
+        width: 240px;
+    }
+
+    .rounded-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        /* justify-content: space-between; */
+    }
+
+    .rounded-card {
+        background-color: var(--primaryColor);
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        margin-bottom: 480px;
+        margin-left: 50px;
+        text-align: center;
+        box-shadow: 0 0 5px #d9d9d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .s-icons .bx {
+        color: var(--secondaryColor);
+        margin-top: -45px;
+        margin-left: -200px;
+
+    }
+
+    .title {
+        margin-top: 30px;
+        margin-left: -10%;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: -20px;
+        margin-bottom: 50%;
+        margin-top: 60%;
+    }
+
+    .paragraph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-left: -120px;
+        padding-left: 10%;
+        padding-right: 5%;
+        font-size: 15px;
+        color: white;
+        margin-top: 50%;
+
+    }
+
+    .text-center-exp {
+        margin-top: 10%;
+        margin-left: -130px;
+    }
+
 
     .experience-p {
         color: var(--bluetiful);
         font-weight: 500;
-        margin-left: -50px;
+        margin-left: -60px;
+        font-size: 15px;
     }
 
     .title-exp {
@@ -540,7 +634,8 @@
 
     .p-exp {
         color: aliceblue;
-        margin-left: -50px;
+        margin-left: -60px;
         margin-bottom: 10%;
+        margin-top: 20px;
     }
 }

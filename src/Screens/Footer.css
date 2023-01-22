@@ -6,12 +6,12 @@
     justify-content: space-between;
     gap: 5rem;
     margin-top: 5%;
-    background: var(--independence);
+    background: var(--secondaryColor);
     height: 15vh;
 }
 
 .last-text p {
-    color: var(--orange-soda);
+    color: var(--primaryColor);
     font-size: 24px;
     text-align: center;
 }
@@ -21,7 +21,7 @@
     font-size: 30px;
     color: var(--white);
     padding-left: -30px;
-    background: var(--orange-soda);
+    background: var(--primaryColor);
 
 
 }
@@ -35,6 +35,8 @@
 @media (max-width: 668px) {
     .end {
         padding: 15px 3%;
+        margin-top: 5 0%;
+
 
     }
 

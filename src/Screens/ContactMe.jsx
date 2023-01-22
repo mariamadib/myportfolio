@@ -30,19 +30,19 @@ const ContactMe = () => {
         <>
             <section className='contact' id='contact'>
 
-                <div className='text-center'>
+                <div className='text-center-skills'>
                     <h2>
-                        Contact <span>Me!</span>
+                        Contact Me!
                     </h2>
-                    <h4>If You Have Any Project In Mind.</h4>
+                    <h4>Interested in working together? <span>Let's have a talk.</span>.</h4>
                     <p>
                         I'm a Full stuck web developer - creating bold & brave interface
                         design for companies all across the world.
                     </p>
                     <div className='list'>
                         <ul>
-                            <li><i className='bx bx-phone'></i><a className='phone' href="tel:+96176321608">+96176321608</a></li>
-                            <li><i className='bx bxl-gmail'></i><a className='phone' href="mailto:mariam.al.adib1@gmail.com">mariam.al.adib1t@gmail.com</a>
+                            <li><i className='bx bx-phone'></i><a className='phone' href="tel:+96176321608">+961 76 321 608</a></li>
+                            <li><i className='bx bxl-gmail'></i><a className='phone' href="mailto:mariam.al.adib1@gmail.com">mariam.al.adib1@gmail.com</a>
                             </li>
                         </ul>
                     </div>

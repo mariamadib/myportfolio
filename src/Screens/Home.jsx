@@ -29,7 +29,7 @@ const Home = () => {
 
 
                     <div className="details">
-                        <h1 className="lg-heading firstname">
+                        <h1 className="lg-heading-firstname">
                             {firstName}
                             <span className="lastname">{lastName}</span>
                         </h1>
@@ -39,8 +39,8 @@ const Home = () => {
                         </h2>
 
                         <div className='short-paragraph'>
-                            <p>I work to make a better web; one that is fast, easy to use,beautiful</p>
-                            <p>and accessabile to all. Regardless of your specific business requirements.</p>
+                            <p>I work to make a better web; easy to use and beautiful,</p>
+                            <p>I design and develop Websites & Landing Pages.</p>
                         </div>
 
                         <div className="btn-group" data-aos="fade-up-left">

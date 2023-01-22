@@ -1,7 +1,24 @@
 .skills {
-    background-color: var(--independence);
+    background-color: var(--secondaryColor);
     margin-top: 10%;
     height: 70vh;
+    margin-bottom: 500px;
+}
+
+.text-center-skills {
+    margin-top: -0.9%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color: var(--primaryColor); */
+    padding-top: -50%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    color: var(--primaryColor);
 }
 
 .box-skills {
@@ -22,12 +39,12 @@
 .frontback-card {
     width: 500px;
     padding: 10px 10px;
-    background-color: var(--manatee);
+    background-color: var(--primaryColor);
     border-radius: 40px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30%;
-    height: 70vh;
+    /* height: 70vh; */
     box-shadow: 0 0 10px black;
     /* box-shadow: 0 0 5px white; */
 }
@@ -53,20 +70,40 @@
 
 }
 
+.desc {
+    color: rgb(255, 242, 217);
+}
+
+img .skill {
+    width: 80px;
+}
+
 .title2 {
-    color: var(--primaryColor);
+    color: var(--secondaryColor);
+    margin-top: 3%;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: rgb(208, 201, 192);
 }
 
 @media screen and (min-width: 375px) and (max-width: 740px) {
     .skills {
-        background-color: var(--independence);
-        margin-top: 10%;
-        height: 180vh;
+        background-color: var(--secondaryColor);
+        margin-top: 800px;
+        height: 250vh;
+    }
+
+    .text-center-skills {
+        color: var(--primaryColor);
+        background-color: var(--primaryColor);
     }
 
     .box-skills {
         background-color: var(--primaryColor);
-        height: 150vh;
+        height: 190vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -76,6 +113,7 @@
         margin-top: 20%; */
         padding: 20px 40px;
         border-radius: 50px;
+        margin-top: 80px;
 
     }
 
@@ -100,14 +138,15 @@
         margin-bottom: 30%;
         height: 200vh;
         box-shadow: 0 0 10px black;
-        background-color: var(--manatee);
+        background-color: var(--primaryColor);
 
     }
 
     p {
-        margin-top: -1%;
+        margin-top: 8%;
+        margin-bottom: 10%;
         font-size: 13px;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-right: 3%;
     }
 

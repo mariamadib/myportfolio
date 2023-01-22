@@ -7,7 +7,7 @@ const Footer = () => {
             <section className="end">
                 <div className="last-text">
                     <p>
-                        <i className="bx bx-code-alt"></i> Made with ❤ by Mariam Al Adib © 2023
+                        <i className="bx bx-code-alt"></i> by Mariam Al Adib © 2023
                     </p>
                 </div>
                 <div className="top">

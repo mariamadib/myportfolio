@@ -1,17 +1,36 @@
 .myWork {
-    margin-top: 18%;
+    margin-top: 300px;
 
 }
 
+.text-center-skills {
+    margin-top: -0.9%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: -10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--secondaryColor);
+    padding-top: -50%;
+    padding-bottom: 1%;
+
+}
+
+
+
 .text-center2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 60px;
     color: white;
+    margin-top: 1%;
+
 }
 
 .hr-2 {
     width: 430px;
     margin-left: 40%;
-    margin-bottom: 8%;
+    margin-bottom: 1%;
+    background-color: aqua;
 }
 
 .project-box {
@@ -40,6 +59,7 @@
     cursor: pointer;
     margin-bottom: 12%;
     margin-left: 5%;
+    margin-top: 5%;
 }
 
 .projects img {
@@ -53,7 +73,7 @@
 .layer {
     width: 1900px;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--primaryColor));
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--secondaryColor));
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -118,6 +138,7 @@
     }
 
     .project-box {
+        background-color: aqua;
         margin-top: -1px;
 
         width: 300px;
@@ -138,16 +159,17 @@
     }
 
     .projects {
-        background-color: brown;
+        /* background-color: brown; */
         position: relative;
         overflow: hidden;
         border-radius: 50px;
         cursor: pointer;
-        margin-bottom: 12%;
+        margin-bottom: 60%;
         margin-left: -10%;
         width: 300px;
         height: 50vh;
         box-shadow: 0 0 5px hsl(222, 88%, 55%);
+
 
     }
 

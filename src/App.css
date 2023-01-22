@@ -3,7 +3,10 @@
 }
 
 :root {
-  --primaryColor: hsl(243, 23%, 18%);
+  --primaryColor: #00001e;
+  --secondaryColor: #f2e24b;
+  --grayColor: rgb(154, 130, 130);
+
   --yellowColor: hsl(50, 100%, 64%);
   --goldenColor: hsl(50, 100%, 54%);
   --independence: hsl(225, 24%, 27%);
@@ -16,7 +19,6 @@
   --rufous: hsl(2, 85%, 35%);
   /* --primaryColor: hsl(0, 0%, 0%); */
   --white: #fff;
-  --secondaryColor: #FF7F50;
   --textColor: #343232;
   /* --secondaryColor: #191970; */
   --primaryFont: "Poppins", sans-serif;
