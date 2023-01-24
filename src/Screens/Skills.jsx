@@ -6,7 +6,7 @@ const Skills = () => {
 
         <main class="skills" id="skills">
             <h2 className='text-center-skills'> What My Skills Include </h2>
-            <hr />
+            {/* <hr /> */}
 
             <div className='box-skills' >
                 <div className="frontback-card">

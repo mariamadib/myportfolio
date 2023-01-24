@@ -199,16 +199,23 @@ p {
     margin-right: 30%;
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .lg-heading-firstname {
+        font-size: 6rem;
+        color: #f2e24b;
+        margin-left: 20%;
+        padding-top: 10%;
+    }
+
 
     h1.sm-heading,
     h2.sm-heading,
     h3.sm-heading {
         margin-bottom: 1.1rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         margin-left: -10%;
         padding: 0.1rem 1rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     main {
@@ -226,10 +233,15 @@ p {
 
 
     .short-paragraph {
-        padding-top: 3px;
-        margin-left: -25%;
-        font-size: 11px;
-        font-weight: 600;
+        padding-top: 1px;
+        margin-right: 30%;
+
+        font-size: 13px;
+        font-weight: 800;
+    }
+
+    .short-paragraph p {
+        font-size: 13px;
     }
 
 
@@ -251,7 +263,7 @@ p {
         height: 25px;
         width: 25px;
         font-size: 22px;
-        margin-top: 2.1rem;
+        margin-top: 4rem;
         margin-left: 30px;
         margin-right: 15px;
     }
@@ -267,9 +279,9 @@ p {
         position: absolute;
         bottom: 0;
         top: 80px;
-        height: 45%;
+        height: 40%;
         /* margin-top: 30%; */
-        left: 75%;
+        left: 50%;
         transition: bottom 1s, left 1s;
         /* WE USE IT FOR MOUSE TO BECOME FLEXIBLE IN IMG */
     }
@@ -303,15 +315,17 @@ p {
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: -20px;
         background-color: #f2e24b;
+
         margin-top: 50%;
-        margin-right: 10%;
+        margin-right: 15%;
+
 
 
     }
 
     .btn-group {
-        margin-top: 10%;
-        margin-bottom: 1%;
+        margin-top: -8%;
+        margin-bottom: 3%;
         margin-left: 1%;
 
 
@@ -343,32 +357,27 @@ p {
 
 @media screen and (min-width: 414px) and (max-width:896) {
 
-    main#home {
-        overflow: hidden;
-        background-color: var(--primaryColor);
-        margin-bottom: 10%;
-    }
-
-
     .lg-heading-firstname {
-        font-size: 6rem;
+        font-size: 5rem;
         color: #f2e24b;
-        margin-top: -50%;
+        margin-left: 30%;
+        padding-top: 5%;
+        background-color: aqua;
     }
+
 
     h1.sm-heading,
     h2.sm-heading,
     h3.sm-heading {
         margin-bottom: 1.1rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         margin-left: -10%;
         padding: 0.1rem 1rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     main {
-        padding: 2rem;
-
+        padding: 1rem;
     }
 
 
@@ -382,10 +391,16 @@ p {
 
 
     .short-paragraph {
-        padding-top: 3px;
-        margin-left: -25%;
-        font-size: 11px;
-        font-weight: 600;
+        /* padding-top: 1px; */
+        margin-right: 10%;
+        font-size: 10px;
+        font-weight: 800;
+        /* margin-left: -80%; */
+    }
+
+    .short-paragraph p {
+        font-size: 10px;
+
     }
 
 
@@ -407,7 +422,7 @@ p {
         height: 25px;
         width: 25px;
         font-size: 22px;
-        margin-top: 2.1rem;
+        margin-top: 4rem;
         margin-left: 30px;
         margin-right: 15px;
     }
@@ -423,11 +438,11 @@ p {
         position: absolute;
         bottom: 0;
         top: 80px;
-        height: 45%;
-        /* margin-top: 30%; */
-        left: 75%;
+        height: 40%;
+
+        left: 50%;
         transition: bottom 1s, left 1s;
-        /* WE USE IT FOR MOUSE TO BECOME FLEXIBLE IN IMG */
+
     }
 
     .profile:hover .img-cover {
@@ -449,8 +464,7 @@ p {
         padding: 5px 5px;
         margin-left: -100%;
         margin-right: 5%;
-        /* margin-bottom: 30%; */
-        /* margin-top: -50%; */
+        margin-top: 10px;
         background-color: #f2e24b;
     }
 
@@ -459,15 +473,17 @@ p {
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: -20px;
         background-color: #f2e24b;
+
         margin-top: 50%;
-        margin-right: 10%;
+        margin-right: 15%;
+
 
 
     }
 
     .btn-group {
-        margin-top: 10%;
-        margin-bottom: 1%;
+        margin-top: -12%;
+        margin-bottom: 3%;
         margin-left: 1%;
 
 
@@ -526,7 +542,7 @@ p {
 
     .short-paragraph {
         padding-top: 3px;
-        margin-left: -25%;
+        margin-right: 30%;
         font-size: 11px;
         font-weight: 600;
     }
@@ -610,7 +626,7 @@ p {
     .btn-group {
         margin-top: 10%;
         margin-bottom: 1%;
-        margin-left: 1%;
+        margin-right: 1%;
 
 
     }
@@ -642,15 +658,22 @@ p {
 
 
 @media screen and (min-width: 390px) and (max-width: 845px) {
+    .lg-heading-firstname {
+        font-size: 5rem;
+        color: #f2e24b;
+        margin-left: 20%;
+        padding-top: 1%;
+    }
+
 
     h1.sm-heading,
     h2.sm-heading,
     h3.sm-heading {
         margin-bottom: 1.1rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         margin-left: -10%;
         padding: 0.1rem 1rem;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     main {
@@ -668,10 +691,14 @@ p {
 
 
     .short-paragraph {
-        padding-top: 3px;
-        margin-left: -25%;
-        font-size: 11px;
-        font-weight: 600;
+        padding-top: 1px;
+        margin-right: 15%;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .short-paragraph p {
+        font-size: 18px;
     }
 
 
@@ -693,7 +720,7 @@ p {
         height: 25px;
         width: 25px;
         font-size: 22px;
-        margin-top: 2.1rem;
+        margin-top: 15rem;
         margin-left: 30px;
         margin-right: 15px;
     }
@@ -709,11 +736,11 @@ p {
         position: absolute;
         bottom: 0;
         top: 80px;
-        height: 45%;
-
-        left: 75%;
+        height: 40%;
+        /* margin-top: 30%; */
+        left: 50%;
         transition: bottom 1s, left 1s;
-
+        /* WE USE IT FOR MOUSE TO BECOME FLEXIBLE IN IMG */
     }
 
     .profile:hover .img-cover {
@@ -735,7 +762,8 @@ p {
         padding: 5px 5px;
         margin-left: -100%;
         margin-right: 5%;
-
+        /* margin-bottom: 30%; */
+        /* margin-top: -50%; */
         background-color: #f2e24b;
     }
 
@@ -744,16 +772,18 @@ p {
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: -20px;
         background-color: #f2e24b;
-        margin-top: 50%;
-        margin-right: 10%;
+
+        margin-top: 60%;
+        margin-right: 15%;
+
 
 
     }
 
     .btn-group {
-        margin-top: 10%;
-        margin-bottom: 1%;
-        margin-left: 1%;
+        margin-top: -10%;
+        margin-bottom: 3%;
+        margin-left: 4%;
 
 
     }
@@ -783,21 +813,23 @@ p {
 
 }
 
-@media screen and (min-width: 820px) and (max-width: 1181px) {
+/* @media screen and (min-width: 412px) and (max-width: 915px) {
     .lg-heading-firstname {
-        font-size: 6rem;
+        font-size: 5rem;
         color: #f2e24b;
-        margin-top: -50%;
+        margin-left: 20%;
+        padding-top: 1%;
     }
+
 
     h1.sm-heading,
     h2.sm-heading,
     h3.sm-heading {
         margin-bottom: 1.1rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         margin-left: -10%;
         padding: 0.1rem 1rem;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
 
     main {
@@ -815,10 +847,15 @@ p {
 
 
     .short-paragraph {
-        padding-top: 3px;
-        margin-left: -25%;
-        font-size: 11px;
-        font-weight: 600;
+        padding-top: 1px;
+        margin-right: -300px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .short-paragraph p {
+        font-size: 17px;
+        margin-left: 10%;
     }
 
 
@@ -840,7 +877,7 @@ p {
         height: 25px;
         width: 25px;
         font-size: 22px;
-        margin-top: 2.1rem;
+        margin-top: 15rem;
         margin-left: 30px;
         margin-right: 15px;
     }
@@ -856,11 +893,11 @@ p {
         position: absolute;
         bottom: 0;
         top: 80px;
-        height: 45%;
-
-        left: 75%;
+        height: 40%;
+      
+        left: 50%;
         transition: bottom 1s, left 1s;
-
+     
     }
 
     .profile:hover .img-cover {
@@ -882,7 +919,7 @@ p {
         padding: 5px 5px;
         margin-left: -100%;
         margin-right: 5%;
-
+   
         background-color: #f2e24b;
     }
 
@@ -891,15 +928,17 @@ p {
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: -20px;
         background-color: #f2e24b;
-        margin-top: 50%;
-        margin-right: 10%;
+
+        margin-top: 60%;
+        margin-right: 15%;
+
 
 
     }
 
     .btn-group {
-        margin-top: 10%;
-        margin-bottom: 1%;
+        margin-top: -1%;
+        margin-bottom: 3%;
         margin-left: 1%;
 
 
@@ -926,5 +965,168 @@ p {
         margin-top: -90px;
         margin-left: -48%;
     }
+
+
+} */
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .lg-heading-firstname {
+        font-size: 5rem;
+        color: #f2e24b;
+        margin-left: 50%;
+        padding-top: 1%;
+    }
+
+
+    h1.sm-heading,
+    h2.sm-heading,
+    h3.sm-heading {
+        margin-bottom: 1.1rem;
+        margin-top: 3rem;
+        margin-left: 210px;
+
+        padding: 0.1rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+
+    .sm-heading {
+        animation: typing 0s steps(22) infinite, blink-cursor .5s infinite;
+        animation-fill-mode: forwards;
+        font-weight: 900;
+        margin-right: 70%;
+
+    }
+
+
+    .short-paragraph {
+        padding-top: 1px;
+        margin-right: -200px;
+        font-size: 10px;
+        font-weight: 800;
+        margin-left: -1%;
+
+
+    }
+
+    .short-paragraph p {
+        font-size: 25px;
+
+
+    }
+
+
+    .contact-icons {
+        margin-top: 580px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50%;
+        margin-left: 150%;
+
+
+    }
+
+    .contact-icons i {
+        display: flex;
+        flex-direction: row;
+        height: 25px;
+        width: 25px;
+        font-size: 22px;
+        margin-top: 32rem;
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+
+    main .contact-icons a {
+        padding: 0.3rem;
+        text-decoration: none;
+        color: var(--textColor);
+    }
+
+
+    .container-images img {
+        position: absolute;
+        bottom: 0;
+        top: 80px;
+        height: 40%;
+        /* margin-top: 30%; */
+        left: 50%;
+        transition: bottom 1s, left 1s;
+        /* WE USE IT FOR MOUSE TO BECOME FLEXIBLE IN IMG */
+    }
+
+    .profile:hover .img-cover {
+        top: 50%;
+    }
+
+    .profile img {
+        width: 110px;
+        height: 180px;
+        top: 6%;
+        left: 2%;
+        right: 50%;
+
+    }
+
+    .btn {
+        font-size: var(--fs-5);
+        font-weight: var(--fw-600);
+        padding: 5px 5px;
+        margin-left: -100%;
+        margin-right: 5%;
+        /* margin-bottom: 30%; */
+        /* margin-top: -50%; */
+        background-color: #f2e24b;
+    }
+
+    .btn-primary.blue {
+        background-color: transparent;
+        box-shadow: 0 0 5px #d9d9d9;
+        margin-left: -20px;
+        background-color: #f2e24b;
+
+        margin-top: 60%;
+        margin-right: 15%;
+
+
+
+    }
+
+    .btn-group {
+        margin-top: -5%;
+        margin-bottom: 3%;
+        margin-left: 45%;
+
+
+    }
+
+
+    p {
+        margin-left: 10px;
+        margin-right: 50%;
+        margin-top: 2rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        opacity: 0.7;
+        font-family: var(--primaryFont);
+        color: white;
+    }
+
+    .profile img {
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+
+    .details {
+        margin-top: -90px;
+        margin-left: -48%;
+    }
+
 
 }

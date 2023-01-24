@@ -1,6 +1,6 @@
 .contact {
     background: rgb(255, 239, 96);
-    margin-top: -10%;
+    margin-top: -1%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -124,9 +124,9 @@ form textarea {
 @media (max-width: 668px) {
     .contact {
         background-color: var(--secondaryColor);
-        /* background-color: transparent; */
         border-radius: 0px;
-        /* height: 50vh; */
+        margin-top: -700px;
+
     }
 
     .contact-box {
@@ -215,10 +215,15 @@ form textarea {
 }
 
 @media screen and (min-width: 414px) and (max-width: 896px) {
-    .contact-box {
-        width: 100%;
+
+    .contact {
+        background-color: var(--secondaryColor);
+        border-radius: 0px;
+
 
     }
+
+    .contact-box {}
 
     .list li a {
 
@@ -227,18 +232,24 @@ form textarea {
 
     }
 
+    .text-center-skills {
+        background-color: var(--secondaryColor);
+        height: 180vh;
+    }
+
 
     .contact {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        height: 180vh;
-        width: 80%;
+        height: 190vh;
 
+        margin-left: 10%;
         grid-template-columns: 3fr;
-
-        margin-left: 50%;
+        /* background-color: antiquewhite; */
+        background-color: transparent;
+        margin-top: 100px;
     }
 
     .text-center h4 {
@@ -250,7 +261,6 @@ form textarea {
     .text-center {
         font-size: 15px;
         line-height: 1;
-
 
     }
 
@@ -265,9 +275,16 @@ form textarea {
         margin-right: 5%;
     }
 
+
+
     .contact-form form {
         position: relative;
-        margin-top: 20%;
+        margin-top: -380px;
+        margin-bottom: 5%;
+        background-color: transparent;
+        padding-top: -30%;
+        padding-bottom: 60%;
+        /* background-color: blue; */
 
     }
 
@@ -275,9 +292,9 @@ form textarea {
     form textarea {
         margin-left: 10%;
         width: 80%;
-        margin-right: 1%;
+        margin-right: 10%;
         padding: 14px;
-        background-color: violet;
+        background-color: var(--primaryColor);
         /* background-color: var(--primaryColor); */
         box-shadow: 0 0 5px var(--primaryColor);
         color: var(--orange-soda);
@@ -286,6 +303,7 @@ form textarea {
         font-size: 20px;
         border-radius: 8px;
         margin-bottom: 10px;
+        /* margin-top: -20%; */
     }
 
 
@@ -294,35 +312,85 @@ form textarea {
 
 @media screen and (min-width: 390px) and (max-width: 844px) {
     .contact {
+        background-color: var(--secondaryColor);
+        border-radius: 0px;
+
+
+    }
+
+    .contact-box {}
+
+    .list li a {
+
+
+        font-size: 20px;
+
+    }
+
+    .text-center-skills {
+        background-color: var(--secondaryColor);
+        height: 180vh;
+    }
+
+
+    .contact {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
-        height: 130vh;
-        width: 80%;
+        height: 190vh;
+
         margin-left: 10%;
-    }
-
-    .contact {
         grid-template-columns: 3fr;
+        /* background-color: antiquewhite; */
+        background-color: transparent;
+        margin-top: 100px;
     }
 
-    .list li a {
-        display: inline;
-        gap: 25px;
-        font-size: 18px;
-        transition: all 0.45s ease;
+    .text-center h4 {
+        margin: 18px 0;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .text-center {
+        font-size: 15px;
+        line-height: 1;
+
+    }
+
+    .text-center p {
+        color: var(--second-color);
+        font-size: 20px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+    .bx {
+        margin-right: 5%;
+    }
+
+
+
+    .contact-form form {
+        position: relative;
+        margin-top: -380px;
+        margin-bottom: 5%;
+        background-color: transparent;
+        padding-top: -30%;
+        padding-bottom: 60%;
+        /* background-color: blue; */
 
     }
 
     .contact-form form input,
     form textarea {
         margin-left: 10%;
-
         width: 80%;
-        margin-right: 80%;
+        margin-right: 10%;
         padding: 14px;
         background-color: var(--primaryColor);
+        /* background-color: var(--primaryColor); */
         box-shadow: 0 0 5px var(--primaryColor);
         color: var(--orange-soda);
         border: none;
@@ -330,6 +398,104 @@ form textarea {
         font-size: 20px;
         border-radius: 8px;
         margin-bottom: 10px;
+        /* margin-top: -20%; */
     }
+
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+
+    .contact {
+        background-color: var(--secondaryColor);
+        border-radius: 0px;
+
+        width: 90%;
+    }
+
+    .contact-box {
+        width: 80%;
+    }
+
+    .list li a {
+
+
+        font-size: 20px;
+
+    }
+
+    .text-center-skills {
+        background-color: var(--secondaryColor);
+        height: 180vh;
+    }
+
+
+    .contact {
+
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        height: 190vh;
+        width: 80%;
+        margin-left: 10%;
+        grid-template-rows: 3fr;
+        /* background-color: antiquewhite; */
+        background-color: transparent
+    }
+
+    .text-center h4 {
+        margin: 18px 0;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .text-center {
+        font-size: 15px;
+        line-height: 1;
+
+    }
+
+    .text-center p {
+        color: var(--second-color);
+        font-size: 20px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+    .bx {
+        margin-right: 5%;
+    }
+
+
+
+    .contact-form form {
+        position: relative;
+        margin-top: -380px;
+        margin-bottom: 5%;
+        background-color: transparent;
+        padding-top: -30%;
+        padding-bottom: 60%;
+        /* background-color: blue; */
+
+    }
+
+    .contact-form form input,
+    form textarea {
+        margin-left: 10%;
+        width: 30%;
+        margin-right: 10%;
+        padding: 14px;
+        background-color: var(--primaryColor);
+        /* background-color: var(--primaryColor); */
+        box-shadow: 0 0 5px var(--primaryColor);
+        color: var(--orange-soda);
+        border: none;
+        outline: none;
+        font-size: 20px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        /* margin-top: -20%; */
+    }
+
 
 }

@@ -17,7 +17,7 @@ const Home = () => {
                         <img src="./profile-PhotoRoom.png" width="285" height="500" alt=""
                             className="img-cover">
                         </img>
-                        <div className="contact-icons" data-aos="fade-right">
+                        <div className="contact-icons" >
                             <a href="https://www.linkedin.com"><i className="bx bxl-linkedin"></i></a>
                             <a href="https://twitter.com"><i className="bx bxl-twitter"></i></a>
                             <a href="https://github.com"><i className="bx bxl-github"></i></a>
@@ -43,7 +43,7 @@ const Home = () => {
                             <p>I design and develop Websites & Landing Pages.</p>
                         </div>
 
-                        <div className="btn-group" data-aos="fade-up-left">
+                        <div className="btn-group">
                             <a href="#contact" className="btn btn-primary blue">Get a Quote</a>
 
                             <a href="#about" className="btn btn-primary blue">About Me</a>
