@@ -300,9 +300,9 @@ p {
     }
 
     .btn {
-        font-size: var(--fs-5);
-        font-weight: var(--fw-600);
-        padding: 5px 5px;
+        font-size: 5px;
+        font-weight: 600;
+        padding: 2px 2px;
         margin-left: -100%;
         margin-right: 5%;
         /* margin-bottom: 30%; */
@@ -318,14 +318,14 @@ p {
 
         margin-top: 50%;
         margin-right: 15%;
-
+        font-size: 15px;
 
 
     }
 
     .btn-group {
-        margin-top: -8%;
-        margin-bottom: 3%;
+        margin-top: -9%;
+        margin-bottom: 5%;
         margin-left: 1%;
 
 
@@ -461,7 +461,7 @@ p {
     .btn {
         font-size: var(--fs-5);
         font-weight: var(--fw-600);
-        padding: 5px 5px;
+        padding: 2px 2px;
         margin-left: -100%;
         margin-right: 5%;
         margin-top: 10px;
@@ -473,7 +473,7 @@ p {
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: -20px;
         background-color: #f2e24b;
-
+        font-size: 15px;
         margin-top: 50%;
         margin-right: 15%;
 
@@ -759,7 +759,7 @@ p {
     .btn {
         font-size: var(--fs-5);
         font-weight: var(--fw-600);
-        padding: 5px 5px;
+        padding: 2px 2px;
         margin-left: -100%;
         margin-right: 5%;
         /* margin-bottom: 30%; */
@@ -772,7 +772,7 @@ p {
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: -20px;
         background-color: #f2e24b;
-
+        font-size: 15px;
         margin-top: 60%;
         margin-right: 15%;
 

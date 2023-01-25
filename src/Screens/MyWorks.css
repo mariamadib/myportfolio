@@ -122,6 +122,9 @@
     .myWork {
         margin-top: -1000px;
 
+        margin-bottom: 500px;
+
+
 
     }
 
@@ -160,13 +163,13 @@
     .projects {
         /* background-color: brown; */
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         border-radius: 5px;
         cursor: pointer;
         margin-bottom: 60%;
         /* margin-right: 80%; */
         margin-left: -112%;
-        width: 200px;
+        width: 150px;
         height: 30vh;
         box-shadow: 0 0 5px hsl(222, 88%, 55%);
 
@@ -190,7 +193,7 @@
 
     .layer {
         width: 200px;
-        height: 0;
+        height: 100px;
         background: linear-gradient(rgba(0, 0, 0, 0.1), var(--primaryColor));
         position: absolute;
         border-radius: 8px;
@@ -216,7 +219,7 @@
 
     .layer i {
         color: white;
-        margin-top: 20px;
+        margin-top: 5px;
         font-size: 5px;
         background: var(--yellowColor);
         width: 30px;
@@ -242,6 +245,7 @@
 
     .myWork {
         margin-top: -40px;
+        margin-bottom: 300px;
 
 
     }
@@ -297,6 +301,7 @@
 @media screen and (min-width: 390px) and (max-width: 844px) {
     .myWork {
         margin-top: -900px;
+        margin-bottom: 300px;
 
     }
 

@@ -412,7 +412,7 @@
 @media screen and (min-width: 390px) and (max-width: 844px) {
     .about {
         margin-top: 3%;
-        height: 410vh;
+        height: 440vh;
         /* background-color: hsl(222, 54%, 11%); */
         box-shadow: 0 0 5px #d9d9d9;
         margin-left: 5%;
@@ -497,6 +497,7 @@
         margin-top: 10%;
         margin-left: -130px;
     }
+
 
 
     .experience-p {

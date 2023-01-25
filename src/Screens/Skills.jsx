@@ -33,7 +33,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className="frontback-card">
+                <div className="frontback-card" >
                     <div className="s-icons">
                         <i className='bx bx-mobile-alt' ></i>
                     </div>

@@ -9,7 +9,7 @@ const About = () => {
                 {/* <hr /> */}
 
                 <div class="rounded-box">
-                    <div class="rounded-card" >
+                    <div class="rounded-card" data-aos="flip-right">
                         <div className="s-icons">
                             <i className='bx bx-code-alt' ></i>
                         </div>
@@ -19,7 +19,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div class="rounded-card"  >
+                    <div class="rounded-card" data-aos="flip-right" >
                         <div className="s-icons">
                             <i className='bx bx-mobile-alt' ></i>
                         </div>
@@ -29,7 +29,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div class="rounded-card"  >
+                    <div class="rounded-card" data-aos="flip-right"  >
                         <div className="s-icons">
                             <i className='bx bx-mobile-alt' ></i>
                         </div>
@@ -39,7 +39,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div class="rounded-card" >
+                    <div class="rounded-card" data-aos="flip-right" >
                         <div className="s-icons">
                             <i className='bx bx-code-alt' ></i>
                         </div>
