@@ -18,9 +18,9 @@ const Home = () => {
                             className="img-cover">
                         </img>
                         <div className="contact-icons" >
-                            <a href="https://www.linkedin.com"><i className="bx bxl-linkedin"></i></a>
-                            <a href="https://twitter.com"><i className="bx bxl-twitter"></i></a>
-                            <a href="https://github.com"><i className="bx bxl-github"></i></a>
+                            <a href="https://www.linkedin.com/in/mariam-al-adib-69704a201/"><i className="bx bxl-linkedin"></i></a>
+                            <a href="https://twitter.com/Mariamaladib"><i className="bx bxl-twitter"></i></a>
+                            <a href="https://github.com/mariamadib"><i className="bx bxl-github"></i></a>
 
                         </div>
 
