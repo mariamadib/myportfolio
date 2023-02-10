@@ -28,6 +28,15 @@ const MyWorks = () => {
                     </div>
 
                 </div>
+                <div className='projects'>
+                    {/* data-aos="zoom-in-down" */}
+                    <img src="./Landing page.PNG" alt="" width='1700' height='700' />
+                    <div className='layer'>
+                        <h1>Tailwind LandingPage</h1>
+                        <a href=" https://tailwindproject12.netlify.app"><i className='bx bx-link-external' ></i></a>
+                    </div>
+
+                </div>
 
             </div>
         </main>
